@@ -6,13 +6,13 @@
 int main()
 {
 	cout << "Enter A and B: ";
-	int a, b;
+	double a, b;
 	cin >> a >> b;
-	int min = a;
+	double min = a;
 	if (b <= a) {
 		min = b;
 	}
-	int max = a;
+	double max = a;
 	if (b >= a) {
 		max = b;
 	}
